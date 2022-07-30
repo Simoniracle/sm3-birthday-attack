@@ -218,7 +218,7 @@ def birthday_attack(n):
         #print('s2_temp=',s2_temp)
         #print('\n')
         if (s1_temp == s2_temp):
-            print("find collison ",s2_temp)
+            print("find collison.s1_temp=",s2_temp)
             return
         else:
             print("failed")
