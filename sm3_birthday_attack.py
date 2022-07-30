@@ -218,8 +218,8 @@ def birthday_attack(n):
         #print('s2_temp=',s2_temp)
         #print('\n')
         if (s1_temp == s2_temp):
-            print("find collison.s1_temp=",s2_temp)
-            return
+            print("find collison.")
+            return s1_temp
         else:
             print("failed")
         
@@ -227,8 +227,9 @@ def birthday_attack(n):
 if __name__=='__main__':
     time_start=time.time()
     n=16
-    birthday_attack(n)
+    a=birthday_attack(n)
     time_end=time.time()
+    print(a)
     print('time=',time_end-time_start)
 
 
